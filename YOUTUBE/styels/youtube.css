@@ -1,0 +1,305 @@
+
+body{
+    font-family: Arial;
+}
+
+p{
+font-family: Roboto, Arial;
+margin: 0;
+}
+.channel,.status{
+color: gray;
+font-size: 12px;
+font-weight: bold;
+}
+
+.channel{
+margin-bottom: 8px;
+}
+
+.video-info-grid{
+display: grid;
+grid-template-columns: 50px 1fr;
+}
+
+.logo{
+height: 40px;
+width: 40px;
+border-radius: 20px;
+}
+
+.title{
+margin-top: 0px;
+margin-bottom: 15px;
+font-size: 14px;
+font-weight: bold;
+line-height: 20px;
+}
+
+.channel-logo{
+display: inline-block;
+width: 50px;
+vertical-align: top;
+}
+
+.info{
+display: inline-block;
+width: 200px;
+}
+
+.image{
+width: 100%;
+}
+.video-grid{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr ;
+column-gap: 20px;
+row-gap: 40px;
+margin-top: 10px;
+margin-left: 6px;
+}
+@media (max-width:750px){
+.video-grid{
+    grid-template-columns: 1fr 1fr;
+}
+}
+@media (min-width:751px) and (max-width:999px){
+.video-grid{
+    grid-template-columns: 1fr 1fr 1fr;
+}
+}
+@media (min-width:1000px){
+.video-grid{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+}
+
+.video-margin{
+margin-bottom: 10px;
+position:relative;
+}
+
+.time{
+font-family: Roboto,arial;
+font-size: 12px;
+font-weight: bold;
+background-color: black;
+color: white;
+position: absolute;
+right: 0;
+bottom: 15px;
+right: 10px;
+padding: 4px;
+border-radius: 2px;
+
+}
+
+
+body{
+padding-top: 55px;
+padding-left: 92px;
+}
+.header{
+height: 70px;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+z-index: 100;
+position: fixed;
+top: 0;
+left: 0;
+right: 0;
+background-color: white;
+border-bottom-width: 1px;
+border-bottom-color: rgb(197, 188, 188);
+border-bottom-style: solid;
+}
+
+.left{
+display: flex;
+align-items: center;
+}
+
+.middle{
+display: flex;
+align-items: center;
+flex: 1;
+margin-left: 60px;
+margin-right: 25px;
+max-width: 500px;
+}
+
+.right{
+display: flex;
+margin-right: 20px;
+width: 200px;
+align-items: center;
+justify-content: space-between;
+flex-shrink: 0;
+}
+
+.youtube-logo{
+height:55px ;
+width: 150px;
+}
+
+.menu{
+margin-left: 20px;
+margin-right: 20px;
+height: 40px;
+width: 40px;
+position: relative;
+position: relative;
+cursor: pointer;
+}
+
+
+.menu-holder:hover .info-menu{
+opacity: 1;
+}
+.menu-holder .info-menu{
+position: absolute;
+background-color: gray;
+padding:2px 2px 2px 2px;
+font-weight: 600;
+top: 45px;
+left: 70px;
+opacity: 0;
+transition: 1s;
+}
+
+
+.searchbar::placeholder{
+font-family: Roboto,Arial;
+font-size: 16px;
+}
+.searchbar{
+border-style: solid;
+border-width: 1px;
+border-color: gray;
+border-radius: 0px;
+box-shadow: inset 1px 2px 5px rgba(0, 0 ,0 ,0.);
+flex: 1;
+height: 37px;
+padding-left: 10px;
+font-size: 16px;
+width: 0;
+}
+
+.search{
+height: 25px;
+margin-top: 4px;
+}
+
+.mic{
+height: 25px;
+margin-top: 4px;
+margin-left: -1px;
+}
+
+.search-button{
+margin-left: -1px;
+height: 41px;
+width: 60px;
+border-style: solid;
+border-width: 1px;
+border-color: gray;
+border-radius: 0px;
+box-shadow: inset 1px 2px 5px rgba(0, 0, 0, 0);
+background-color: rgb(249, 246, 246);
+
+}
+
+.mic-button{
+border-style: solid;
+border-width: 1px;
+border-color: gray;
+border-radius: 20px;
+box-shadow: inset 1px 2px 5px rgba(0, 0, 0, 0);
+height: 41px;
+width: 41px;
+margin-left: 10px;
+background-color: rgb(249, 246, 246);
+}
+
+.main-logo{
+height: 40px;
+width: 40px;
+border-radius: 20px;
+}
+
+.camera-logo{
+height: 20px;
+
+}
+.option-logo{
+height: 20px;
+
+}
+
+.bell-container{
+position: relative;
+}
+
+.bell-logo{
+height: 20px;
+}
+
+.bell-count{
+font-family: roboto,arial;
+position: absolute;
+font-size: 12px;
+border-radius: 10px;
+bottom: 15px;
+left: 8px;
+padding-left: 4px;
+padding-right: 4px;
+color: white;
+background-color: red;
+}
+
+.sidebar{
+position: fixed;
+display: flex;
+flex-direction: column;
+flex-shrink: 0;
+bottom: 0;
+top: 70px;
+background-color: white;
+left: 0;
+width: 100px;
+z-index: 100;
+border-color: antiquewhite;
+border-right-width: 1px;
+border-style: solid;
+border-top: none;
+}
+
+
+.sidebar-link{
+height: 75px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin-bottom: 30px;
+
+}
+
+.side-icon{
+height:34px;
+}
+
+.sidebar-link div{
+font-family: Roboto,Arial;
+font-size: 12px;
+font-weight: bold;
+margin-left: 2px;
+transition: 0.25s;
+
+}
+
+.sidebar-link:hover{
+background-color: rgb(240, 235, 235);
+cursor: pointer;
+}
